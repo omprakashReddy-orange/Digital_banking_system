@@ -10,4 +10,10 @@ import org.springframework.stereotype.Service;
 public class TransactionService {
     public TransactionResponse createTransaction(@Valid TransactionResponse transactionRequest) {
     }
+
+    public TransactionResponse getTransactionById(String transId) {
+    }
+
+    public TransactionResponse getTransactionHistory(String accountId) {
+    }
 }
